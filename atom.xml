@@ -41,7 +41,7 @@
     <link href="http://yoursite.com/2018/09/10/hello-world/"/>
     <id>http://yoursite.com/2018/09/10/hello-world/</id>
     <published>2018-09-10T00:52:31.279Z</published>
-    <updated>2018-09-11T04:51:30.213Z</updated>
+    <updated>2018-09-12T05:48:10.043Z</updated>
     
     <summary type="html">
     
@@ -49,6 +49,10 @@
     
     </summary>
     
+      <category term="hero" scheme="http://yoursite.com/categories/hero/"/>
+    
+    
+      <category term="-test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
