@@ -120,7 +120,7 @@
 <meta property="og:site_name" content="浪子&amp;剑心">
 <meta property="og:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-12T03:39:34.413Z">
+<meta property="og:updated_time" content="2018-09-12T03:47:33.476Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo的安装及使用(1) ">
 <meta name="twitter:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
@@ -421,7 +421,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-12 11:39:34" itemprop="dateModified" datetime="2018-09-12T11:39:34+08:00">2018-09-12</time>
+                <time title="修改时间：2018-09-12 11:47:33" itemprop="dateModified" datetime="2018-09-12T11:47:33+08:00">2018-09-12</time>
               
             
           </span>
@@ -483,23 +483,32 @@
 </ol>
 <pre><code>安装完成后执行
 
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> s</span><br></pre></td></tr></table></figure>
 
+$hexo s
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">	</span><br><span class="line">	点击[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">5. 生成静态页面，部署在服务器的根目录下</span><br></pre></td></tr></table></figure>
 
-点击[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没
-</code></pre><ol start="5">
-<li><p>生成静态页面，部署在服务器的根目录下</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">```//生成静态文件</span><br></pre></td></tr></table></figure>
-<p> npm install hexo-deployer-git –save</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p> npm install hexo-deployer-git –save</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//安装git部署插件	</span><br><span class="line"></span><br><span class="line">下来需要修改安装hexo的目录下的_config.xml文件</span><br></pre></td></tr></table></figure>
-<p> deploy:<br> type: git                //部署类型<br> repo: (Repository地址)<br> branch: (分支名称)</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">例如我的是</span><br></pre></td></tr></table></figure>
-<p> deploy:<br>   type: git<br>   repo: <a href="https://github.com/StevenKun/StevenKun.github.io.git" target="_blank" rel="noopener">https://github.com/StevenKun/StevenKun.github.io.git</a><br>   branch: master<br> <code>`</code></p>
-</li>
-<li><p>登录<br> 在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站    。</p>
-</li>
+hexo g
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+npm install hexo-deployer-git --save
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+npm install hexo-deployer-git --save
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//安装git部署插件	</span><br><span class="line"></span><br><span class="line">下来需要修改安装hexo的目录下的_config.xml文件</span><br></pre></td></tr></table></figure>
+
+deploy:    
+type: git                //部署类型  
+repo: (Repository地址)
+branch: (分支名称)
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">例如我的是</span><br></pre></td></tr></table></figure>
+
+deploy: 
+  type: git
+  repo: https://github.com/StevenKun/StevenKun.github.io.git
+  branch: master
+```
+</code></pre><ol start="6">
+<li>登录<br> 在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站    。</li>
 </ol>
 
       
