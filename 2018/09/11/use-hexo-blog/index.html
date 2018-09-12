@@ -120,7 +120,7 @@
 <meta property="og:site_name" content="浪子&amp;剑心">
 <meta property="og:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-12T02:01:49.956Z">
+<meta property="og:updated_time" content="2018-09-12T03:04:57.243Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo的安装及使用(1) ">
 <meta name="twitter:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
@@ -421,7 +421,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-12 10:01:49" itemprop="dateModified" datetime="2018-09-12T10:01:49+08:00">2018-09-12</time>
+                <time title="修改时间：2018-09-12 11:04:57" itemprop="dateModified" datetime="2018-09-12T11:04:57+08:00">2018-09-12</time>
               
             
           </span>
@@ -478,13 +478,18 @@
 <li>安装git,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">安装地址</a>,一路next即可</li>
 <li>安装node.js,<a href="http://nodejs.cn/download/" target="_blank" rel="noopener">安装地址</a>,同上；</li>
 <li><p>安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">	<span class="variable">$npm</span> install -g hexo-cli</span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	```bash</span><br><span class="line">	<span class="variable">$npm</span> init  //这个也可以后边加目录  但因为选择的是已经在此目录git bash here ，故默认是当前路径 </span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	```bash</span><br><span class="line">	<span class="variable">$npm</span> install</span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图![](https://i.imgur.com/Zz84XRL.jpg)</span><br><span class="line"></span><br><span class="line">	这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。</span><br><span class="line">4. 启动服务器</span><br><span class="line">	要能够在本地预览自己的博客，需要本地启动服务器</span><br></pre></td></tr></table></figure>
-<p> npm install hexo-server –save</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">安装完成后执行</span><br></pre></td></tr></table></figure>
-<p> hexo s</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">	</span><br><span class="line">	点击[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没</span><br><span class="line"></span><br><span class="line">5. 生成静态页面，部署在服务器的根目录下</span><br></pre></td></tr></table></figure>
-<p> hexo g</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">	<span class="variable">$npm</span> install -g hexo-cli</span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	```bash</span><br><span class="line">	<span class="variable">$npm</span> init  //这个也可以后边加目录  但因为选择的是已经在此目录git bash here ，故默认是当前路径 </span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	```bash</span><br><span class="line">	<span class="variable">$npm</span> install</span><br><span class="line">	```	</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图![](https://i.imgur.com/Zz84XRL.jpg)</span><br><span class="line"></span><br><span class="line">	这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">4. 启动服务器</span><br><span class="line"></span><br><span class="line">	要能够在本地预览自己的博客，需要本地启动服务器</span><br><span class="line"></span><br><span class="line">	```bash</span><br><span class="line">	<span class="variable">$npm</span> install hexo-server --save</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<pre><code>安装完成后执行
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> s</span><br></pre></td></tr></table></figure>
+
+
+点击[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没
+</code></pre><ol start="5">
+<li><p>生成静态页面，部署在服务器的根目录下</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">```//生成静态文件</span><br></pre></td></tr></table></figure>
 <p> npm install hexo-deployer-git –save</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p> npm install hexo-deployer-git –save</p>
