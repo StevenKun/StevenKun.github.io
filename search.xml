@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo的安装及使用(2)]]></title>
     <url>%2F2018%2F09%2F13%2Fuse-hexo-blog%2F</url>
-    <content type="text"><![CDATA[今天主要写写关于hexo插件，功能的一些添加，比如站点地图，搜索等功能，可以极大的改善hexo的使用和美观。闲话不多说，下来看干货 站点地图1.安装 $npm install hexo-generator-seo-friendly-sitemap –save2.在 _config.yml 中添加 sitemap: path: sitemap.xml RSS 安装 $npm install hexo-generator-feed 在_config.yml文件中 feed: type: atom path: atom.xml limit: 20 hub: content: content_limit: 140 content_limit_delim: ‘ ‘ 文章插入图片功能 修改_config.yml配置文件post_asset_folder项为true。 安装 npm install hexo-asset-image –save 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片： 今天就先写这么多吧，要开始工作了，工作最重要。]]></content>
+    <content type="text"><![CDATA[今天主要写写关于hexo插件，功能的一些添加，比如站点地图，搜索，插入图片等功能，可以极大的改善hexo的使用和美观。闲话不多说，下来看干货。 站点地图 安装 $npm install hexo-generator-seo-friendly-sitemap –save 在 _config.yml 中添加 sitemap: path: sitemap.xml RSS 安装 $npm install hexo-generator-feed 在_config.yml文件中 feed: type: atom path: atom.xml limit: 20 hub: content: content_limit: 140 content_limit_delim: ‘ ‘ 文章插入图片功能 修改_config.yml配置文件post_asset_folder项为true。 安装 npm install hexo-asset-image –save 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片： 1![你想输入的替代文字](xxxx/图片名.jpg) 搜索功能 安装npm install hexo-generator-searchdb –save 修改 站点配置 文件 search: path: search.xml field: post format: html limit: 10000 修改 主题配置文件 local_search: enable: true]]></content>
       <categories>
         <category>hexo</category>
       </categories>

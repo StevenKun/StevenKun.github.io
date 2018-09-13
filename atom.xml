@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-13T01:05:14.078Z</updated>
+  <updated>2018-09-13T01:19:18.009Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="http://yoursite.com/2018/09/13/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/13/use-hexo-blog/</id>
     <published>2018-09-13T00:04:38.000Z</published>
-    <updated>2018-09-13T01:05:14.078Z</updated>
+    <updated>2018-09-13T01:19:18.009Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;今天主要写写关于hexo插件，功能的一些添加，比如站点地图，搜索等功能，可以极大的改善hexo的使用和美观。闲话不多说，下来看干货&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;今天主要写写关于hexo插件，功能的一些添加，比如站点地图，搜索，插入图片等功能，可以极大的改善hexo的使用和美观。闲话不多说，下来看干货。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
