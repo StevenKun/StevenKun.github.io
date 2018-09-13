@@ -25,7 +25,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。&lt;br&gt;
+      &lt;p&gt;这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -45,7 +45,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
