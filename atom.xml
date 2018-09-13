@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-12T05:14:00.634Z</updated>
+  <updated>2018-09-13T01:05:14.078Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo的安装及使用(2)</title>
+    <link href="http://yoursite.com/2018/09/13/use-hexo-blog/"/>
+    <id>http://yoursite.com/2018/09/13/use-hexo-blog/</id>
+    <published>2018-09-13T00:04:38.000Z</published>
+    <updated>2018-09-13T01:05:14.078Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天主要写写关于hexo插件，功能的一些添加，比如站点地图，搜索等功能，可以极大的改善hexo的使用和美观。闲话不多说，下来看干货&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo的安装及使用(1) </title>
