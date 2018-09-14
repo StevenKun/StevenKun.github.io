@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-13T03:51:22.546Z</updated>
+  <updated>2018-09-14T04:55:10.393Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>android studio配置优化</title>
+    <link href="http://yoursite.com/2018/09/14/android-studio%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/"/>
+    <id>http://yoursite.com/2018/09/14/android-studio配置优化/</id>
+    <published>2018-09-14T01:30:15.000Z</published>
+    <updated>2018-09-14T04:55:10.393Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;android studio已经下载下接近两周了，两个星期的使用中发现不少问题，比如加载慢，快捷键不符合自己的习惯等，Google亲儿子表现出明显的水土不服问题。故今天主要研究怎么才能提高这个IDE的性能，不少资料可能摘自网页中的，在此感谢大家的分享。除此之外，下周估计会写一个bug问题集锦。解决各种android中遇到的问题。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="android" scheme="http://yoursite.com/categories/android/"/>
+    
+    
+      <category term="-android Studio -as配置、优化" scheme="http://yoursite.com/tags/android-Studio-as%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo的安装及使用(2)</title>
@@ -41,7 +61,7 @@
     <link href="http://yoursite.com/2018/09/11/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/11/use-hexo-blog/</id>
     <published>2018-09-11T01:43:17.000Z</published>
-    <updated>2018-09-12T05:14:00.634Z</updated>
+    <updated>2018-09-14T01:31:38.199Z</updated>
     
     <summary type="html">
     
@@ -49,7 +69,7 @@
     
     </summary>
     
-      <category term="hero" scheme="http://yoursite.com/categories/hero/"/>
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
     
     
       <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>

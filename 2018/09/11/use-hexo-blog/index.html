@@ -124,10 +124,12 @@
 <meta property="og:site_name" content="浪子&amp;剑心">
 <meta property="og:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-12T05:14:00.634Z">
+<meta property="og:image" content="https://i.imgur.com/Zz84XRL.jpg">
+<meta property="og:updated_time" content="2018-09-14T01:31:38.199Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo的安装及使用(1) ">
 <meta name="twitter:description" content="这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。">
+<meta name="twitter:image" content="https://i.imgur.com/Zz84XRL.jpg">
 
 
 
@@ -409,7 +411,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-12 13:14:00" itemprop="dateModified" datetime="2018-09-12T13:14:00+08:00">2018-09-12</time>
+                <time title="修改时间：2018-09-14 09:31:38" itemprop="dateModified" datetime="2018-09-14T09:31:38+08:00">2018-09-14</time>
               
             
           </span>
@@ -426,7 +428,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hero/" itemprop="url" rel="index"><span itemprop="name">hero</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
 
                 
                 
@@ -481,25 +483,17 @@
 
       
         <p>这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。<br><a id="more"></a></p>
-<p>#hexo的安装</p>
+<p>#hexo的安装<br>​    </p>
 <ol>
 <li>安装git,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">安装地址</a>,一路next即可</li>
 <li>安装node.js,<a href="http://nodejs.cn/download/" target="_blank" rel="noopener">安装地址</a>,同上；</li>
 <li>安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令</li>
 </ol>
-<pre><code>$npm install -g hexo-cli
-
-$npm init  //这个也可以后边加目录  但因为选择的是已经在此目录git bash here ，故默认是当前路径 
-
-$npm install
-
-
-
-
-即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图![](https://i.imgur.com/Zz84XRL.jpg)
-
-这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。
-</code></pre><ol start="4">
+<p>  $npm install -g hexo-cli<br>  ​<br>  $npm init  //这个也可以后边加目录  但因为选择的是已经在此目录git bash here ，故默认是当前路径 </p>
+<p>  $npm install</p>
+<p>  即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图<img src="https://i.imgur.com/Zz84XRL.jpg" alt=""></p>
+<p>  这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。</p>
+<ol start="4">
 <li><p>启动服务器</p>
 <p> 要能够在本地预览自己的博客，需要本地启动服务器</p>
 </li>
@@ -519,36 +513,16 @@ $hexo s
 </ol>
 <pre><code>hexo g
 //生成静态文件
-
-
-
-npm install hexo-deployer-git --save
-//安装git部署插件    
-
-
-
-npm install hexo-deployer-git --save
-
-//安装git部署插件    
+</code></pre><p>​<br>    npm install hexo-deployer-git –save<br>    //安装git部署插件    </p>
+<p>​<br>    npm install hexo-deployer-git –save</p>
+<pre><code>//安装git部署插件    
 
 下来需要修改安装hexo的目录下的_config.xml文件
-
-
-deploy:    
-type: git                //部署类型  
-repo: (Repository地址)
-branch: (分支名称)
-
-
-例如我的是
-
-
-deploy: 
-  type: git
-  repo: https://github.com/StevenKun/StevenKun.github.io.git
-  branch: master
-</code></pre><ol start="6">
-<li>登录<br> 在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站    。</li>
+</code></pre><p>​<br>    deploy:<br>    type: git                //部署类型<br>    repo: (Repository地址)<br>    branch: (分支名称)</p>
+<p>​<br>    例如我的是</p>
+<p>​<br>    deploy:<br>      type: git<br>      repo: <a href="https://github.com/StevenKun/StevenKun.github.io.git" target="_blank" rel="noopener">https://github.com/StevenKun/StevenKun.github.io.git</a><br>      branch: master</p>
+<ol start="6">
+<li>登录<br>在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站    。</li>
 </ol>
 
       
@@ -690,7 +664,7 @@ deploy:
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -726,7 +700,9 @@ deploy:
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

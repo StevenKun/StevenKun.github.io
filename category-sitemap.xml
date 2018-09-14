@@ -7,13 +7,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/categories/hero/</loc>
-        <lastmod>2018-09-12T05:14:00.634Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/categories/test/</loc>
         <lastmod>2018-09-12T05:53:13.020Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,7 +15,14 @@
 
     <url>
         <loc>http://yoursite.com/categories/hexo/</loc>
-        <lastmod>2018-09-13T03:51:22.546Z</lastmod>
+        <lastmod>2018-09-14T01:31:38.199Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/android/</loc>
+        <lastmod>2018-09-14T04:55:10.393Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/09/14/android-studio%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/</loc>
+        <lastmod>2018-09-14T04:55:10.393Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/09/11/use-hexo-blog/</loc>
+        <lastmod>2018-09-14T01:31:38.199Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/09/13/use-hexo-blog/</loc>
         <lastmod>2018-09-13T03:51:22.546Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +33,6 @@
     <url>
         <loc>http://yoursite.com/2018/09/10/hello-world/</loc>
         <lastmod>2018-09-12T05:53:13.020Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2018/09/11/use-hexo-blog/</loc>
-        <lastmod>2018-09-12T05:14:00.634Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
