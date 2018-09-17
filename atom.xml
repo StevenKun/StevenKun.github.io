@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-17T02:39:09.558Z</updated>
+  <updated>2018-09-17T07:08:50.761Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>android studio bug</title>
+    <link href="http://yoursite.com/2018/09/17/android-studio-bug/"/>
+    <id>http://yoursite.com/2018/09/17/android-studio-bug/</id>
+    <published>2018-09-17T02:37:57.000Z</published>
+    <updated>2018-09-17T07:08:50.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;无法可视化界面&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="android" scheme="http://yoursite.com/categories/android/"/>
+    
+    
+      <category term="-as3.1.4配置、优化 -android" scheme="http://yoursite.com/tags/as3-1-4%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96-android/"/>
+    
+  </entry>
   
   <entry>
     <title>android studio配置优化</title>
