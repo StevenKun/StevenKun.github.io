@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-14T06:46:54.471Z</updated>
+  <updated>2018-09-17T02:39:09.558Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,18 @@
     <link href="http://yoursite.com/2018/09/14/android-studio%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/"/>
     <id>http://yoursite.com/2018/09/14/android-studio配置优化/</id>
     <published>2018-09-14T01:30:15.000Z</published>
-    <updated>2018-09-14T06:46:54.471Z</updated>
+    <updated>2018-09-17T02:39:09.558Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;android studio已经下载下接近两周了，两个星期的使用中发现不少问题，比如加载慢，快捷键不符合自己的习惯等，Google亲儿子表现出明显的水土不服问题。故今天主要研究怎么才能提高这个IDE的性能，不少资料可能摘自网页中的，在此感谢大家的分享。除此之外，下周估计会写一个bug问题集锦。解决各种android中遇到的问题。&lt;/p&gt;
+      &lt;p&gt;android studio 3.1.4已经下载下接近两周了，两个星期的使用中发现不少问题，比如加载慢，快捷键不符合自己的习惯等，Google亲儿子表现出明显的水土不服问题。故今天主要研究怎么才能提高这个IDE的性能，不少资料可能摘自网页中的，在此感谢大家的分享。除此之外，下周估计会写一个bug问题集锦。解决各种android中遇到的问题。&lt;/p&gt;
     
     </summary>
     
       <category term="android" scheme="http://yoursite.com/categories/android/"/>
     
     
-      <category term="-android Studio -as配置、优化" scheme="http://yoursite.com/tags/android-Studio-as%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96/"/>
+      <category term="-android Studio3.1.4 -as配置、优化" scheme="http://yoursite.com/tags/android-Studio3-1-4-as%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   

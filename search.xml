@@ -3,12 +3,12 @@
   <entry>
     <title><![CDATA[android studio配置优化]]></title>
     <url>%2F2018%2F09%2F14%2Fandroid-studio%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96%2F</url>
-    <content type="text"><![CDATA[android studio已经下载下接近两周了，两个星期的使用中发现不少问题，比如加载慢，快捷键不符合自己的习惯等，Google亲儿子表现出明显的水土不服问题。故今天主要研究怎么才能提高这个IDE的性能，不少资料可能摘自网页中的，在此感谢大家的分享。除此之外，下周估计会写一个bug问题集锦。解决各种android中遇到的问题。 Sitting 设置更改工程打开关闭设置:Settings – System Settings 这里反选Reopen last project on startup，下次打开Android Studio时默认进入主页面，所以不需要自动打开上次关闭的工程。 代理设置：（目前似乎用不了，干脆不用了….，复制的网上的）很多时候都要访问谷歌官方服务器，而由于一些其他原因，会导致连接不上或者速度很慢，那就需要我们设置一下国内的镜像代理了，Settings – System Settings– HTTP Proxy。 如：中国科学院开源协会镜像站地址 ​ http://mirrors.opencas.cn 端口：80 ​ http://mirrors.opencas.org 端口：80 ​ 上海GDG镜像服务器地址: ​ http://sdk.gdgshanghai.com 端口：8000 ​ 腾讯Bugly 镜像: ​ http://android-mirror.bugly.qq.com 端口：8080 ​ 自动更新：Settings – System Settings–Updates 中勾选 Check for updates in channel ，即开通了自动检查更新。也可以禁用自动检查更新，减少AS的检查更新内存消耗。 下拉列表为更新通道，主要有4种： 1）Stable Channel ： 正式版本通道，只会获取最新的正式版本。 2）Beta Channel ： 测试版本通道，只会获取最新的测试版本。 3）Dev Channel ： 开发发布通道，只会获取最新的开发版本。 4）Canary Channel ： 预览发布通道，只会获取最新的预览版本。 以上4个通道中， Stable Channel 最稳定，问题相对较少， Canary Channel 能获得最新版本，问题相对较多。 鼠标悬停显示文档当鼠标悬停到某一个类的时候，会自动显示该类的文档说明，Settings – Editor– General]]></content>
+    <content type="text"><![CDATA[android studio 3.1.4已经下载下接近两周了，两个星期的使用中发现不少问题，比如加载慢，快捷键不符合自己的习惯等，Google亲儿子表现出明显的水土不服问题。故今天主要研究怎么才能提高这个IDE的性能，不少资料可能摘自网页中的，在此感谢大家的分享。除此之外，下周估计会写一个bug问题集锦。解决各种android中遇到的问题。 Sitting 设置更改工程打开关闭设置:Settings – System Settings 这里反选Reopen last project on startup，下次打开Android Studio时默认进入主页面，所以不需要自动打开上次关闭的工程。 代理设置：（目前似乎用不了，干脆不用了….，复制的网上的）很多时候都要访问谷歌官方服务器，而由于一些其他原因，会导致连接不上或者速度很慢，那就需要我们设置一下国内的镜像代理了，Settings – System Settings– HTTP Proxy。 如：中国科学院开源协会镜像站地址 ​ http://mirrors.opencas.cn 端口：80 ​ http://mirrors.opencas.org 端口：80 ​ 上海GDG镜像服务器地址: ​ http://sdk.gdgshanghai.com 端口：8000 ​ 腾讯Bugly 镜像: ​ http://android-mirror.bugly.qq.com 端口：8080 ​ 自动更新：Settings – System Settings–Updates 中勾选 Check for updates in channel ，即开通了自动检查更新。也可以禁用自动检查更新，减少AS的检查更新内存消耗。 下拉列表为更新通道，主要有4种： 1）Stable Channel ： 正式版本通道，只会获取最新的正式版本。 2）Beta Channel ： 测试版本通道，只会获取最新的测试版本。 3）Dev Channel ： 开发发布通道，只会获取最新的开发版本。 4）Canary Channel ： 预览发布通道，只会获取最新的预览版本。 以上4个通道中， Stable Channel 最稳定，问题相对较少， Canary Channel 能获得最新版本，问题相对较多。 鼠标悬停显示文档当鼠标悬停到某一个类的时候，会自动显示该类的文档说明，Settings – Editor– General]]></content>
       <categories>
         <category>android</category>
       </categories>
       <tags>
-        <tag>-android Studio -as配置、优化</tag>
+        <tag>-android Studio3.1.4 -as配置、优化</tag>
       </tags>
   </entry>
   <entry>
