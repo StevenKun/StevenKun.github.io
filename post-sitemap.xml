@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/09/17/essay/</loc>
+        <lastmod>2018-09-17T08:37:12.849Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/09/17/android-studio-bug/</loc>
-        <lastmod>2018-09-17T07:08:50.761Z</lastmod>
+        <lastmod>2018-09-17T07:14:08.386Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

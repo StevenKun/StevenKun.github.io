@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[essay（1）]]></title>
+    <url>%2F2018%2F09%2F17%2Fessay%2F</url>
+    <content type="text"><![CDATA[感慨时间的流逝，没钱的烦恼，北漂生活的艰辛与难受，以及对未来的迷茫。 时间的流逝不比和我一起上学的小伙伴，刚毕业的我已经25岁，回首昨天，似乎还是在学校的生活，而现在，已经是北漂一族的存在，孤身站在这高楼林立的街头，忙于安静的办公室，不知不觉的过去一天又一天。 没钱的烦恼钱是个好东西，让你加速的成长，让你不必执着于锅碗瓢盆之中，让你的爱情，友情，亲情保鲜又持久。虽然第一个月的工资明天就发，但刚到手就没多少了，下个月的工资只能细细的安排。 30%的工资存到银行。 ≈1500 20%的工资用于生活花费。 ≈1000 吃饭，交通 10%的工资用于自身的提升。 ≈500 买书，看视频,健身等 10%的工资用于生活品质的提高。 ≈500 买衣服，数码设备等 10%的工资用于其他支出。 ≈500 请客，会友 剩余的投资理财 ≈1000 关键时刻使用 北漂的酸甜苦辣早上六点，在闹钟 ​]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[android studio bug]]></title>
     <url>%2F2018%2F09%2F17%2Fandroid-studio-bug%2F</url>
-    <content type="text"><![CDATA[无法可视化界面 1234修改前&lt;item name=&quot;textInputStyle&quot;&gt;@style/Widget.Design.TextInputLayout&lt;/item&gt; 添加组件错误 AS- This view is not constrained vertically. At runtime it will jump to the left/(0,0) unless you. 意思是：组件没有锁定，重合了 解决方法：添加约束 问题：Your project path contains non-ASCII characters，你的项目路径不支持中文路径 解决方法： ​ 路径改为英文，重新导入即可。 ​ idea.properties配置文件： ​ # ———————————————————————–​ # 设置项目路径支持中文​ #———————————————————————– com.android.build.gradle.overridePathCheck=true ​ OK 重启解决。 问题：运行时，让出现edit Configuration 界面 并且错误提示Pleaseselect Android SDK 解决方法： 选择 File -&gt; Project Structure——–调整Build Tools Version 调整后，程序各种bug,别担心，一般是工具太旧，提高就可以解决。 d d d d d d]]></content>
+    <content type="text"><![CDATA[android studio3.1.4使用中遇到的问题，持续更新帖。 无法可视化界面 1234修改前&lt;item name=&quot;textInputStyle&quot;&gt;@style/Widget.Design.TextInputLayout&lt;/item&gt; 添加组件错误 AS- This view is not constrained vertically. At runtime it will jump to the left/(0,0) unless you. 意思是：组件没有锁定，重合了 解决方法：添加约束 问题：Your project path contains non-ASCII characters，你的项目路径不支持中文路径 解决方法： ​ 路径改为英文，重新导入即可。 ​ idea.properties配置文件： ​ # ———————————————————————–​ # 设置项目路径支持中文​ #———————————————————————– com.android.build.gradle.overridePathCheck=true ​ OK 重启解决。 问题：运行时，让出现edit Configuration 界面 并且错误提示Pleaseselect Android SDK 解决方法： 选择 File -&gt; Project Structure——–调整Build Tools Version 调整后，程序各种bug,别担心，一般是工具太旧，提高就可以解决。 d d d d d d]]></content>
       <categories>
         <category>android</category>
       </categories>

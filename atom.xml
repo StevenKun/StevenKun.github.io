@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-17T07:08:50.761Z</updated>
+  <updated>2018-09-17T08:37:12.849Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,23 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>essay（1）</title>
+    <link href="http://yoursite.com/2018/09/17/essay/"/>
+    <id>http://yoursite.com/2018/09/17/essay/</id>
+    <published>2018-09-17T07:16:10.000Z</published>
+    <updated>2018-09-17T08:37:12.849Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;感慨时间的流逝，没钱的烦恼，北漂生活的艰辛与难受，以及对未来的迷茫。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>android studio bug</title>
     <link href="http://yoursite.com/2018/09/17/android-studio-bug/"/>
     <id>http://yoursite.com/2018/09/17/android-studio-bug/</id>
     <published>2018-09-17T02:37:57.000Z</published>
-    <updated>2018-09-17T07:08:50.761Z</updated>
+    <updated>2018-09-17T07:14:08.386Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;无法可视化界面&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
+      &lt;p&gt;android studio3.1.4使用中遇到的问题，持续更新帖。&lt;/p&gt;
     
     </summary>
     
