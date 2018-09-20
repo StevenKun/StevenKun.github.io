@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-20T05:06:58.417Z</updated>
+  <updated>2018-09-20T05:29:20.897Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,14 +21,18 @@
     <link href="http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/"/>
     <id>http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/</id>
     <published>2018-09-20T04:52:58.000Z</published>
-    <updated>2018-09-20T05:06:58.417Z</updated>
+    <updated>2018-09-20T05:29:20.897Z</updated>
     
     <summary type="html">
     
+      &lt;p&gt;Android Studio的超级实用小技巧，还在嫌弃网上copy的代码复制到IEE上乱吗？是不是代码格式化后，间距有时候又大的吓人呢？为了保护你的眼睛，找到了一个只需要2s变整齐的小方法。&lt;/p&gt;
+    
     </summary>
     
+      <category term="Andorid" scheme="http://yoursite.com/categories/Andorid/"/>
     
-      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="-Android -Android Studio" scheme="http://yoursite.com/tags/Android-Android-Studio/"/>
     
   </entry>
   
