@@ -23,13 +23,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Android/</loc>
-        <lastmod>2018-09-20T05:04:33.230Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/android/</loc>
         <lastmod>2018-09-20T05:06:20.773Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -39,6 +32,13 @@
     <url>
         <loc>http://yoursite.com/tags/Android-Android-Studio/</loc>
         <lastmod>2018-09-20T05:29:20.897Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Android/</loc>
+        <lastmod>2018-09-20T08:43:37.187Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

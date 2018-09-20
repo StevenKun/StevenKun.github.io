@@ -28,15 +28,15 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/categories/android/</loc>
-        <lastmod>2018-09-20T05:06:20.773Z</lastmod>
+        <loc>http://yoursite.com/categories/Andorid/</loc>
+        <lastmod>2018-09-20T05:29:20.897Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/categories/Andorid/</loc>
-        <lastmod>2018-09-20T05:29:20.897Z</lastmod>
+        <loc>http://yoursite.com/categories/android/</loc>
+        <lastmod>2018-09-20T08:43:37.187Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
