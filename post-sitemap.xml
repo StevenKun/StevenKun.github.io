@@ -8,7 +8,15 @@
 
     <url>
         <loc>http://yoursite.com/2018/09/17/essay/</loc>
-        <lastmod>2018-09-18T06:47:27.957Z</lastmod>
+        <lastmod>2018-09-19T08:38:27.940Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/09/10/hello-world/</loc>
+        <lastmod>2018-09-19T04:01:45.353Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -41,14 +49,6 @@
     <url>
         <loc>http://yoursite.com/2018/09/13/use-hexo-blog/</loc>
         <lastmod>2018-09-13T03:51:22.546Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2018/09/10/hello-world/</loc>
-        <lastmod>2018-09-12T05:53:13.020Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
