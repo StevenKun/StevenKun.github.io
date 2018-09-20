@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-19T08:38:27.940Z</updated>
+  <updated>2018-09-20T05:06:58.417Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Studio CodeFormatting</title>
+    <link href="http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/"/>
+    <id>http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/</id>
+    <published>2018-09-20T04:52:58.000Z</published>
+    <updated>2018-09-20T05:06:58.417Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>essay（1）</title>
@@ -41,7 +57,7 @@
     <link href="http://yoursite.com/2018/09/17/android-studio-bug/"/>
     <id>http://yoursite.com/2018/09/17/android-studio-bug/</id>
     <published>2018-09-17T02:37:57.000Z</published>
-    <updated>2018-09-17T07:14:08.386Z</updated>
+    <updated>2018-09-20T05:06:20.773Z</updated>
     
     <summary type="html">
     
@@ -52,7 +68,7 @@
       <category term="android" scheme="http://yoursite.com/categories/android/"/>
     
     
-      <category term="-as3.1.4配置、优化 -android" scheme="http://yoursite.com/tags/as3-1-4%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96-android/"/>
+      <category term="-android" scheme="http://yoursite.com/tags/android/"/>
     
   </entry>
   
@@ -61,7 +77,7 @@
     <link href="http://yoursite.com/2018/09/14/android-studio%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/"/>
     <id>http://yoursite.com/2018/09/14/android-studio配置优化/</id>
     <published>2018-09-14T01:30:15.000Z</published>
-    <updated>2018-09-17T02:39:09.558Z</updated>
+    <updated>2018-09-20T05:06:01.304Z</updated>
     
     <summary type="html">
     
@@ -72,7 +88,7 @@
       <category term="android" scheme="http://yoursite.com/categories/android/"/>
     
     
-      <category term="-android Studio3.1.4 -as配置、优化" scheme="http://yoursite.com/tags/android-Studio3-1-4-as%E9%85%8D%E7%BD%AE%E3%80%81%E4%BC%98%E5%8C%96/"/>
+      <category term="-android" scheme="http://yoursite.com/tags/android/"/>
     
   </entry>
   
@@ -97,6 +113,26 @@
   </entry>
   
   <entry>
+    <title>PDA终端的APP安装流程 </title>
+    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
+    <published>2018-09-11T01:43:17.000Z</published>
+    <updated>2018-09-20T05:04:33.230Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;PDA终端的APP安装流程&quot;&gt;&lt;a href=&quot;#PDA终端的APP安装流程&quot; class=&quot;headerlink&quot; title=&quot;PDA终端的APP安装流程&quot;&gt;&lt;/a&gt;PDA终端的APP安装流程&lt;/h1&gt;&lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没那么说的。、&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="android" scheme="http://yoursite.com/categories/android/"/>
+    
+    
+      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo的安装及使用(1) </title>
     <link href="http://yoursite.com/2018/09/11/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/11/use-hexo-blog/</id>
@@ -113,32 +149,6 @@
     
     
       <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PDA终端的APP安装流程 </title>
-    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
-    <published>2018-09-11T01:43:17.000Z</published>
-    <updated>2018-09-20T01:31:07.405Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;PDA终端的APP安装流程&quot;&gt;&lt;a href=&quot;#PDA终端的APP安装流程&quot; class=&quot;headerlink&quot; title=&quot;PDA终端的APP安装流程&quot;&gt;&lt;/a&gt;PDA终端的APP安装流程&lt;/h1&gt;&lt;h2 id=&quot;环境介绍&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="android" scheme="http://yoursite.com/categories/android/"/>
-    
-    
-      <category term="-Android -PDA" scheme="http://yoursite.com/tags/Android-PDA/"/>
     
   </entry>
   
