@@ -58,7 +58,7 @@
   <entry>
     <title><![CDATA[PDA终端的APP安装流程]]></title>
     <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[PDA终端的APP安装流程PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没那么说的。、 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
+    <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
       <categories>
         <category>android</category>
       </categories>
