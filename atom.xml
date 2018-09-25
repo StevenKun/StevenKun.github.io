@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-20T05:29:20.897Z</updated>
+  <updated>2018-09-25T03:14:27.430Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/"/>
     <id>http://yoursite.com/2018/09/20/Android-Studio-CodeFormatting/</id>
     <published>2018-09-20T04:52:58.000Z</published>
-    <updated>2018-09-20T05:29:20.897Z</updated>
+    <updated>2018-09-25T03:14:27.430Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
     
     </summary>
     
-      <category term="Andorid" scheme="http://yoursite.com/categories/Andorid/"/>
+      <category term="Andoroid" scheme="http://yoursite.com/categories/Andoroid/"/>
     
     
       <category term="-Android -Android Studio" scheme="http://yoursite.com/tags/Android-Android-Studio/"/>
