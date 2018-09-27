@@ -5,7 +5,7 @@
     <url>%2F2018%2F09%2F20%2FAndroid-Studio-CodeFormatting%2F</url>
     <content type="text"><![CDATA[Android Studio的超级实用小技巧，还在嫌弃网上copy的代码复制到IEE上乱吗？是不是代码格式化后，间距有时候又大的吓人呢？为了保护你的眼睛，找到了一个只需要2s变整齐的小方法。 Ctrl +A 全选 Ctrl + Shift +J 所有代码变成一行 Ctrl +Alt +L 格式化代码 Ok,看看，是不是变得整齐了呢？No也别找我了 ，GG。]]></content>
       <categories>
-        <category>Andoroid</category>
+        <category>Android</category>
       </categories>
       <tags>
         <tag>-Android -Android Studio</tag>
