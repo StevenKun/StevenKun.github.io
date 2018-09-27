@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[essay（2）]]></title>
+    <url>%2F2018%2F09%2F27%2Fessay2%2F</url>
+    <content type="text"><![CDATA[最近比较忙，约有一个星期没怎么写了，中秋作为发了工资的第一个节日，带着姐们一家和哥一家吃了个火锅，宽板凳火锅店，味道不错，估计今后还会去吧。 游戏的话，这段时间都没什么时间玩，玩的心也越来越淡了。 前天被领导带着吃了个饭，领导不怎么会和人聊天，只是给我推荐了一下将来的发展方向，让我非常感谢。少川像个标准的京都大少爷一样，说起来什么都是一套一套的，还是很照顾我的。 昨天是上了一天课，讲了讲安全，内控，福利，结果一考试，还是各种懵，O(∩_∩)O哈哈~。 今天上午开了个阿里宝卡，估计旧的手机号，渐渐就用的少了。天津在我身上留下的痕迹渐渐变少，正如我当初离开家乡到天津上学一样，再去，估计都已经陌生。山西—成长，天津—进学，北京—工作，都能当一本漂流记来写了。 从今而后，我又是新生。 加油，坤！！！。]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Android Studio CodeFormatting]]></title>
     <url>%2F2018%2F09%2F20%2FAndroid-Studio-CodeFormatting%2F</url>
     <content type="text"><![CDATA[Android Studio的超级实用小技巧，还在嫌弃网上copy的代码复制到IEE上乱吗？是不是代码格式化后，间距有时候又大的吓人呢？为了保护你的眼睛，找到了一个只需要2s变整齐的小方法。 Ctrl +A 全选 Ctrl + Shift +J 所有代码变成一行 Ctrl +Alt +L 格式化代码 Ok,看看，是不是变得整齐了呢？No也别找我了 ，GG。]]></content>
@@ -56,17 +67,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[PDA终端的APP安装流程]]></title>
-    <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
-      <categories>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>-Android</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[hexo的安装及使用(1)]]></title>
     <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
     <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
@@ -75,6 +75,17 @@
       </categories>
       <tags>
         <tag>-hexo安装 -配置 -使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[PDA终端的APP安装流程]]></title>
+    <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
+      <categories>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>-Android</tag>
       </tags>
   </entry>
   <entry>

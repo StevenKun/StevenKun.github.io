@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-25T04:47:33.191Z</updated>
+  <updated>2018-09-27T06:20:48.086Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>essay（2）</title>
+    <link href="http://yoursite.com/2018/09/27/essay2/"/>
+    <id>http://yoursite.com/2018/09/27/essay2/</id>
+    <published>2018-09-27T05:55:56.000Z</published>
+    <updated>2018-09-27T06:20:48.086Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近比较忙，约有一个星期没怎么写了，中秋作为发了工资的第一个节日，带着姐们一家和哥一家吃了个火锅，宽板凳火锅店，味道不错，估计今后还会去吧。&lt;/p&gt;
+&lt;p&gt;游戏的话，这段时间都没什么时间玩，玩的心也越来越淡了。&lt;/p&gt;
+&lt;p&gt;前天被领导带着吃了个饭，领导不怎么会和人聊天，只
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Android Studio CodeFormatting</title>
@@ -61,7 +89,7 @@
     <link href="http://yoursite.com/2018/09/17/android-studio-bug/"/>
     <id>http://yoursite.com/2018/09/17/android-studio-bug/</id>
     <published>2018-09-17T02:37:57.000Z</published>
-    <updated>2018-09-25T02:43:52.327Z</updated>
+    <updated>2018-09-25T03:14:33.924Z</updated>
     
     <summary type="html">
     
@@ -117,26 +145,6 @@
   </entry>
   
   <entry>
-    <title>PDA终端的APP安装流程 </title>
-    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
-    <published>2018-09-11T01:43:17.000Z</published>
-    <updated>2018-09-25T02:47:39.665Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
-    
-    
-      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo的安装及使用(1) </title>
     <link href="http://yoursite.com/2018/09/11/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/11/use-hexo-blog/</id>
@@ -153,6 +161,26 @@
     
     
       <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PDA终端的APP安装流程 </title>
+    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
+    <published>2018-09-11T01:43:17.000Z</published>
+    <updated>2018-09-25T02:47:39.665Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
     
   </entry>
   
