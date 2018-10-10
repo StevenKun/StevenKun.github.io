@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-27T06:22:41.658Z</updated>
+  <updated>2018-10-10T08:49:33.049Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>essay(3)</title>
+    <link href="http://yoursite.com/2018/10/10/essay-3/"/>
+    <id>http://yoursite.com/2018/10/10/essay-3/</id>
+    <published>2018-10-10T01:08:51.000Z</published>
+    <updated>2018-10-10T08:49:33.049Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;国庆假期过去了，买了眼镜，办了健身卡，修了手机，从前的想要做的事情一件一件实现，我也逐渐稳定了下来，现在最重要的事情大约就是好好努力学会Android了吧。&lt;/p&gt;
+&lt;h2 id=&quot;学会Android原生&quot;&gt;&lt;a href=&quot;#学会Android原生&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>essay（2）</title>
@@ -77,11 +104,11 @@
   </entry>
   
   <entry>
-    <title>android studio bug</title>
+    <title>android bug</title>
     <link href="http://yoursite.com/2018/09/17/android-studio-bug/"/>
     <id>http://yoursite.com/2018/09/17/android-studio-bug/</id>
     <published>2018-09-17T02:37:57.000Z</published>
-    <updated>2018-09-25T03:14:33.924Z</updated>
+    <updated>2018-09-30T03:33:39.483Z</updated>
     
     <summary type="html">
     
@@ -92,7 +119,7 @@
       <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
     
     
-      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="-Android -Android Studio" scheme="http://yoursite.com/tags/Android-Android-Studio/"/>
     
   </entry>
   
