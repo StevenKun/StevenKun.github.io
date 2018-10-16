@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[反编译]]></title>
+    <url>%2F2018%2F10%2F15%2Fdecompile%2F</url>
+    <content type="text"><![CDATA[众所周知，java的编译是将一个.java文件编译成.class文件才能被执行，原则上，阅读.class文件是无法让你知道它的实现的，但总有一些友好的工具，可以帮助我们更好的学习其他人的代码。这些工具就是反编译工具，即将.class文件编译为.java文件。 工具 apktool_2.3.4 （可以让你查看layout文件，程序配置文件，；类库等文件） dex2jar-2.0 （将apk反编译成Java源码（classes.dex转化成jar文件）） jd-gui-windows-1.4.0（查看APK中classes.dex转化成出的jar文件，即源码文件） 流程 下载 下载上边的三个工具 使用 将三个工具放在同一文件夹中 apktool_2.3.4的使用 在目录中按住shift ，右键在此处进入命令行窗口，使用命令java -jar apktool.jar d demo.apk xxx . xxx指的是放在什么目录下 demo.apk是要反编译的app名字 dex2jar-2.0的使用 将工具dex2jar-2.0解压 将app改后缀，改为.zip，然后解压，解压后会有一个classes.dex文件，,把其放在dex2jar-2.0目录下，在dex2jar-2.0目录下同样右键在此处进入命令行窗口，使用命令d2j-dex2jar.bat classes.dex回车，生成classes-dex2jar.jar文件 jd-gui-windows-1.4.0的使用 安装环境要jre1.7 ,我本身10.0.4，系统win10，电脑权限不全，不能进入，修改注册表，点击出现coffee，但没界面，从新下载，可以。 然后将dex2jar-2.0生成的classes-dex2jar.jar用jd-gui打开即可。 总结 三大反编译，copy点别人的创意还是可以得，但如果有使用代码混淆app的，就有点力不从心了，不过也会出来一部分，好了，还有，工具要用最新的！！！！！！！工具要用最新的！！！！！！！工具要用最新的！！！！！！！]]></content>
+      <categories>
+        <category>deciompile</category>
+      </categories>
+      <tags>
+        <tag>反编译</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[essay(3)]]></title>
     <url>%2F2018%2F10%2F10%2Fessay-3%2F</url>
     <content type="text"><![CDATA[国庆假期过去了，买了眼镜，办了健身卡，修了手机，从前的想要做的事情一件一件实现，我也逐渐稳定了下来，现在最重要的事情大约就是好好努力学会Android了吧。 学会Android原生这是初学Android的最先学习的吧，控件方面确实不用多看，最后发现用的大多数都是Material Design,尴尬 健身光猪圈健身房，环境还行，在一个办公楼10层，往外一看，城市的霓虹进入眼帘，虽然健身房比较小巧，但也基本的设备都有了，最重要的是比较安静，没事在这里流点汗，心情也会好很多。 ##]]></content>
@@ -78,17 +89,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo的安装及使用(1)]]></title>
-    <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
-    <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>-hexo安装 -配置 -使用</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[PDA终端的APP安装流程]]></title>
     <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
     <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
@@ -97,6 +97,17 @@
       </categories>
       <tags>
         <tag>-Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo的安装及使用(1)]]></title>
+    <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
+    <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>-hexo安装 -配置 -使用</tag>
       </tags>
   </entry>
   <entry>
