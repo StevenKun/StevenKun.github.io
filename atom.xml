@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-16T02:11:55.483Z</updated>
+  <updated>2018-10-22T05:41:38.372Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>android开发流程</title>
+    <link href="http://yoursite.com/2018/10/19/product/"/>
+    <id>http://yoursite.com/2018/10/19/product/</id>
+    <published>2018-10-19T07:12:32.000Z</published>
+    <updated>2018-10-22T05:41:38.372Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;android开发流程，开发一个app所需要根据的流程&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>反编译</title>
@@ -177,26 +193,6 @@
   </entry>
   
   <entry>
-    <title>PDA终端的APP安装流程 </title>
-    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
-    <published>2018-09-11T01:43:17.000Z</published>
-    <updated>2018-09-25T02:47:39.665Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
-    
-    
-      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo的安装及使用(1) </title>
     <link href="http://yoursite.com/2018/09/11/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/11/use-hexo-blog/</id>
@@ -213,6 +209,26 @@
     
     
       <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PDA终端的APP安装流程 </title>
+    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
+    <published>2018-09-11T01:43:17.000Z</published>
+    <updated>2018-09-25T02:47:39.665Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
     
   </entry>
   

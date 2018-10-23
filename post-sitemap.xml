@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/10/19/product/</loc>
+        <lastmod>2018-10-22T05:41:38.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/10/15/decompile/</loc>
         <lastmod>2018-10-16T02:11:55.483Z</lastmod>
         <changefreq>weekly</changefreq>
