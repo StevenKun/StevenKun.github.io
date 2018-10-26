@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/09/17/android-studio-bug/</loc>
+        <lastmod>2018-10-25T00:50:34.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/10/19/product/</loc>
-        <lastmod>2018-10-22T05:41:38.372Z</lastmod>
+        <lastmod>2018-10-23T02:19:36.375Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,14 +33,6 @@
     <url>
         <loc>http://yoursite.com/2018/10/10/essay-3/</loc>
         <lastmod>2018-10-12T02:32:55.294Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2018/09/17/android-studio-bug/</loc>
-        <lastmod>2018-09-30T03:33:39.483Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

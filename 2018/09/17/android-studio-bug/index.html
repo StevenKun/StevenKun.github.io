@@ -124,7 +124,7 @@
 <meta property="og:site_name" content="浪子&amp;剑心">
 <meta property="og:description" content="android studio3.1.4使用中遇到的问题，持续更新帖。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-30T03:33:39.483Z">
+<meta property="og:updated_time" content="2018-10-25T00:50:34.222Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="android bug">
 <meta name="twitter:description" content="android studio3.1.4使用中遇到的问题，持续更新帖。">
@@ -409,7 +409,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-30 11:33:39" itemprop="dateModified" datetime="2018-09-30T11:33:39+08:00">2018-09-30</time>
+                <time title="修改时间：2018-10-25 08:50:34" itemprop="dateModified" datetime="2018-10-25T08:50:34+08:00">2018-10-25</time>
               
             
           </span>
@@ -508,8 +508,22 @@
 <p>解决方法：</p>
 <p>类实例化即可。</p>
 </li>
-<li></li>
-<li><p>d</p>
+<li><p>问题：线程中无法Toast</p>
+<p>错误提示：Can’t create handler inside thread that has not called Looper.prepare()</p>
+<p>Looper类，是用来封装消息循环和消息队列的一个类，用于在android线程中进行消息处理。执行Toast时，会执行一个加入队列的方法，在主线程中，会默认自动创建一个Looper，可以进行线程处理，而子线程中，没有创建，所以无法直接进行消息处理。</p>
+<p>解决方法：</p>
+<p>Looper.prepare();</p>
+<p>Toast.maketext(…);</p>
+<p>Looper.loop();</p>
+</li>
+<li><p>问题：UI中出现中文乱码</p>
+<p>解决办法：</p>
+<p>首先明白是什么时候出现的乱码，出现乱码的原因是什么。</p>
+<p>从数据库读取出来的乱码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">con = DriverManager.getConnection(<span class="string">"jdbc:jtds:sqlserver://"</span> + IP + <span class="string">":1433/"</span> + DBName + <span class="string">";useunicode=true;characterEncoding=UTF-8"</span>, USER, PWD);</span><br></pre></td></tr></table></figure>
+<p>==”;useunicode=true;characterEncoding=UTF-8”==看是否添加了吗？</p>
+<p>uri取值时候出现乱码：</p>
+<p>使用encode()和decode();</p>
 </li>
 <li><p>d</p>
 </li>
@@ -681,7 +695,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">5</span>
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -706,7 +722,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

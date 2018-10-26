@@ -4,6 +4,12 @@
     <title><![CDATA[android开发流程]]></title>
     <url>%2F2018%2F10%2F19%2Fproduct%2F</url>
     <content type="text"><![CDATA[android开发流程，开发一个app所需要根据的流程 用户需求分析 了解这个企业所针对的广大用户的需求 产品原型设计 产品原型设计也就类似于一个APP产品的草图，在经过深度的用户分析之后，将整理出的需求分类、排序为功能节后模块，利用这些功能模块就能搭建出简单的产品原型。 UI视觉设计 UI设计师才开始对APP的界面进行美化，依据所表现的内容进行版面结构设计，设计风格控制、并对每一块区域进行相应的配色、绘制功能菜单图标、设计页面元素等，在此期间就需要不断的沟通修改，最终设计出所有的APP界面效果图。 数据库搭建 按照需求分析整理出来的功能数据处理情况，建立合理的数据库表结构，优化数据算法，提升数据的处理效率，保证在使用APP的过程中数据的安全性、准确性、稳定性和及时性。 服务器端开发 一款APP应用的核心处理都是由服务端的程序完成的，客户端的APP知识需要收发数据，由于用户的移动端设备硬件配置和存储容量有限，因此核心数据处理过程均是由服务器端进行运算处理的，这种方式也被称为云计算，服务器处理完成之后反馈给客户端APP。因此服务器端的程序开发极为重要，所有的功能均需要严格按照需求分析阶段整理的功能来进行开发。 android客户端开发 app程序测试 APP的全面测试，此测试是模拟用户在正常使用的情况下以及非正常使用的情况下有可能出现的问题，当然，需要导入必要的数据进行测试，出现错误继续开发修复，通过则证明整体APP已经完成，然后再将成品交由用户试用。 上传到应用商店 完成签名验证之后，开发好的客户端APP程序就可以提交发布到各应用商店 app的更新和维护]]></content>
+      <categories>
+        <category>android</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[反编译]]></title>
@@ -63,7 +69,7 @@
   <entry>
     <title><![CDATA[android bug]]></title>
     <url>%2F2018%2F09%2F17%2Fandroid-studio-bug%2F</url>
-    <content type="text"><![CDATA[android studio3.1.4使用中遇到的问题，持续更新帖。 无法可视化界面 1234修改前&lt;item name=&quot;textInputStyle&quot;&gt;@style/Widget.Design.TextInputLayout&lt;/item&gt; 添加组件错误 AS- This view is not constrained vertically. At runtime it will jump to the left/(0,0) unless you. 意思是：组件没有锁定，重合了 解决方法：添加约束 问题：Your project path contains non-ASCII characters，你的项目路径不支持中文路径 解决方法： ​ 路径改为英文，重新导入即可。 ​ idea.properties配置文件： ​ # ———————————————————————–​ # 设置项目路径支持中文​ #———————————————————————– com.android.build.gradle.overridePathCheck=true ​ OK 重启解决。 问题：运行时，让出现edit Configuration 界面 并且错误提示Pleaseselect Android SDK 解决方法： 选择 File -&gt; Project Structure——–调整Build Tools Version 调整后，程序各种bug,别担心，一般是工具太旧，提高就可以解决。 问题：空指针异常 一般问题出在类未实例化 解决方法： 类实例化即可。 d d d d]]></content>
+    <content type="text"><![CDATA[android studio3.1.4使用中遇到的问题，持续更新帖。 无法可视化界面 1234修改前&lt;item name=&quot;textInputStyle&quot;&gt;@style/Widget.Design.TextInputLayout&lt;/item&gt; 添加组件错误 AS- This view is not constrained vertically. At runtime it will jump to the left/(0,0) unless you. 意思是：组件没有锁定，重合了 解决方法：添加约束 问题：Your project path contains non-ASCII characters，你的项目路径不支持中文路径 解决方法： ​ 路径改为英文，重新导入即可。 ​ idea.properties配置文件： ​ # ———————————————————————–​ # 设置项目路径支持中文​ #———————————————————————– com.android.build.gradle.overridePathCheck=true ​ OK 重启解决。 问题：运行时，让出现edit Configuration 界面 并且错误提示Pleaseselect Android SDK 解决方法： 选择 File -&gt; Project Structure——–调整Build Tools Version 调整后，程序各种bug,别担心，一般是工具太旧，提高就可以解决。 问题：空指针异常 一般问题出在类未实例化 解决方法： 类实例化即可。 问题：线程中无法Toast 错误提示：Can’t create handler inside thread that has not called Looper.prepare() Looper类，是用来封装消息循环和消息队列的一个类，用于在android线程中进行消息处理。执行Toast时，会执行一个加入队列的方法，在主线程中，会默认自动创建一个Looper，可以进行线程处理，而子线程中，没有创建，所以无法直接进行消息处理。 解决方法： Looper.prepare(); Toast.maketext(…); Looper.loop(); 问题：UI中出现中文乱码 解决办法： 首先明白是什么时候出现的乱码，出现乱码的原因是什么。 从数据库读取出来的乱码： 1con = DriverManager.getConnection("jdbc:jtds:sqlserver://" + IP + ":1433/" + DBName + ";useunicode=true;characterEncoding=UTF-8", USER, PWD); ==”;useunicode=true;characterEncoding=UTF-8”==看是否添加了吗？ uri取值时候出现乱码： 使用encode()和decode(); d d d]]></content>
       <categories>
         <category>Android</category>
       </categories>
