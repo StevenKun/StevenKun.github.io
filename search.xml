@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[essay（5）]]></title>
+    <url>%2F2018%2F10%2F31%2Fessay%2F</url>
+    <content type="text"><![CDATA[江湖笑，恩怨了，人过招，笑藏刀。 金庸去了！ 那些年小说角色的演员的粉丝们 那些喜欢《江湖笑》《笑傲江湖》主题歌的哥迷们 那些深夜偷偷看武侠书，嘴角含笑的读者们 相信不少都会流泪 感慨 我相信未来还有著名的文学作品 但能风靡中国的，产量如此之高的作家只有一个 笔名“金庸”，姓名“查良镛” 被死了20多次的金庸，这次 一路走好。]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git版本控制工具——初级]]></title>
+    <url>%2F2018%2F10%2F31%2Fgit-time%2F</url>
+    <content type="text"><![CDATA[git 版本控制工具，因为自己已经开了一个小型的应用程序，下来就是迭代更新，但更新的时候如果出问题了怎么办呢？不小心删掉了代码怎么办？使用git ，给你梁静茹的勇气。 既然是初级 ，只要知道这几个就好 安装Git 百度直接搜Git,ok? 创建代码仓库 找到git bash 打开 //这是配置你的身份 git config –global user.name “用户名” git config –global user.email “ 邮箱名 “ //创建代码仓库,在项目目录之下执行 ==git init== 如果在目录下生成.git文件夹即为创建成功。 如果删除.git文件夹即为删除仓库。 提交本地代码 提交使用add和commit命令 ==git add +文件名== //添加单个文件 ==git add .== //添加目录下所有文件 ==git commit -m “First commit.”== //执行提交操作，引号内为描述 ok!!!!!!!!!!!! 初级就这些内容 ，下来更新 进阶。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[essay（4）]]></title>
     <url>%2F2018%2F10%2F29%2Fessay-4%2F</url>
     <content type="text"><![CDATA[月底了，工作两个月了 ，哥也算有2个月工作经验的人了… 月底总结：考勤（1颗星）这个月从10月8号到10月30号，从未迟到，也是让人惊讶，突破了记录。 健身（1颗星）这个月去了9次健身房，还剩9天的时间，有点尴尬，健身是真的累，让人一上班就没有精神，嗜睡，可怕。我的饭碗不够铁啊。不过身材上应该还是有明显的改善吧，肚子上的肉肉似乎少了一些？希望不是错觉。 英语 （2颗星）英语这东西，这个月的成果为0…..，报的一个英语学习的app体验课，也没有耐心学下去。 开发 （3颗星）动手啦，开始了第一个小的app应用，虽然只是一个订单查询的app，不过涉及到了login，版本更新，一个类似物流的状态显示自定义控件，麻雀虽小，五脏俱全嘛。也开始涉及到了网络编程，而不再是单机了。 消费 （1颗星）高，很高，下个月吃土吧]]></content>
@@ -122,17 +138,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[PDA终端的APP安装流程]]></title>
-    <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
-      <categories>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>-Android</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[hexo的安装及使用(1)]]></title>
     <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
     <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
@@ -141,6 +146,17 @@
       </categories>
       <tags>
         <tag>-hexo安装 -配置 -使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[PDA终端的APP安装流程]]></title>
+    <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
+      <categories>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>-Android</tag>
       </tags>
   </entry>
   <entry>

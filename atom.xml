@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-31T03:28:00.962Z</updated>
+  <updated>2018-10-31T09:17:39.572Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>essay（5）</title>
+    <link href="http://yoursite.com/2018/10/31/essay/"/>
+    <id>http://yoursite.com/2018/10/31/essay/</id>
+    <published>2018-10-31T08:24:33.757Z</published>
+    <updated>2018-10-31T09:17:39.572Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;江湖笑，恩怨了，人过招，笑藏刀。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git版本控制工具——初级</title>
+    <link href="http://yoursite.com/2018/10/31/git-time/"/>
+    <id>http://yoursite.com/2018/10/31/git-time/</id>
+    <published>2018-10-31T06:08:55.000Z</published>
+    <updated>2018-10-31T07:38:25.045Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;git 版本控制工具，因为自己已经开了一个小型的应用程序，下来就是迭代更新，但更新的时候如果出问题了怎么办呢？不小心删掉了代码怎么办？使用git ，给你梁静茹的勇气。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>essay（4）</title>
@@ -237,26 +273,6 @@
   </entry>
   
   <entry>
-    <title>PDA终端的APP安装流程 </title>
-    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
-    <published>2018-09-11T01:43:17.000Z</published>
-    <updated>2018-09-25T02:47:39.665Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
-    
-    
-      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo的安装及使用(1) </title>
     <link href="http://yoursite.com/2018/09/11/use-hexo-blog/"/>
     <id>http://yoursite.com/2018/09/11/use-hexo-blog/</id>
@@ -273,6 +289,26 @@
     
     
       <category term="-hexo安装 -配置 -使用" scheme="http://yoursite.com/tags/hexo%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE-%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PDA终端的APP安装流程 </title>
+    <link href="http://yoursite.com/2018/09/11/PDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/09/11/PDA终端的APP安装流程/</id>
+    <published>2018-09-11T01:43:17.000Z</published>
+    <updated>2018-09-25T02:47:39.665Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="-Android" scheme="http://yoursite.com/tags/Android/"/>
     
   </entry>
   
