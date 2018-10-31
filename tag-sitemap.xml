@@ -44,8 +44,15 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/tags/ZigBee/</loc>
+        <lastmod>2018-10-31T03:27:35.351Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/</loc>
-        <lastmod>2018-10-30T08:59:33.296Z</lastmod>
+        <lastmod>2018-10-31T03:28:00.962Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

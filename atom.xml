@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-30T08:59:33.296Z</updated>
+  <updated>2018-10-31T03:28:00.962Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="http://yoursite.com/2018/10/29/essay-4/"/>
     <id>http://yoursite.com/2018/10/29/essay-4/</id>
     <published>2018-10-29T06:52:12.000Z</published>
-    <updated>2018-10-30T08:59:33.296Z</updated>
+    <updated>2018-10-31T03:28:00.962Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;月底总结：&quot;&gt;&lt;a href=&quot;#月底总结：&quot; class=&quot;headerlink&quot; title=&quot;月底总结：&quot;&gt;&lt;/a&gt;月底总结：&lt;/h2&gt;&lt;h3 id=&quot;考勤（1颗星）&quot;&gt;&lt;a href=&quot;#考勤（1颗星）&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;p&gt;月底了，工作两个月了 ，哥也算有2个月工作经验的人了…&lt;/p&gt;
     
     </summary>
     
@@ -79,6 +73,26 @@
     
     
       <category term="反编译" scheme="http://yoursite.com/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ZigBee</title>
+    <link href="http://yoursite.com/2018/10/12/ZigBee/"/>
+    <id>http://yoursite.com/2018/10/12/ZigBee/</id>
+    <published>2018-10-12T02:29:53.167Z</published>
+    <updated>2018-10-31T03:27:35.351Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天主要谈一谈物联网，很多人都知道物联网是国家发展的战略之一，但它具体干什么，应用在哪些领域不太清楚。个人愚见，不对就不对吧&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ZigBee" scheme="http://yoursite.com/categories/ZigBee/"/>
+    
+    
+      <category term="ZigBee" scheme="http://yoursite.com/tags/ZigBee/"/>
     
   </entry>
   
