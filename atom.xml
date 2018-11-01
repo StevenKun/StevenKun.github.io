@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-31T09:17:39.572Z</updated>
+  <updated>2018-11-01T03:31:12.281Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git版本控制工具——终极</title>
+    <link href="http://yoursite.com/2018/11/01/git-4/"/>
+    <id>http://yoursite.com/2018/11/01/git-4/</id>
+    <published>2018-11-01T01:44:47.000Z</published>
+    <updated>2018-11-01T03:31:12.281Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你以为初级，进阶，高级就完成了吗？还有我定义的终极呢，嘻嘻&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git版本控制工具——高级</title>
+    <link href="http://yoursite.com/2018/11/01/git-3/"/>
+    <id>http://yoursite.com/2018/11/01/git-3/</id>
+    <published>2018-11-01T01:13:59.000Z</published>
+    <updated>2018-11-01T01:50:12.304Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习完了进阶，即将迎来高级，都已经迈过了一只脚，另一只脚也来吧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git版本控制工具——进阶</title>
+    <link href="http://yoursite.com/2018/11/01/git-2/"/>
+    <id>http://yoursite.com/2018/11/01/git-2/</id>
+    <published>2018-11-01T00:41:55.000Z</published>
+    <updated>2018-11-01T01:13:29.502Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好了，初级学好了  就学一下进阶 ，毕竟靠初级还说不上懂git.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>essay（5）</title>
@@ -41,7 +101,7 @@
     <link href="http://yoursite.com/2018/10/31/git-time/"/>
     <id>http://yoursite.com/2018/10/31/git-time/</id>
     <published>2018-10-31T06:08:55.000Z</published>
-    <updated>2018-10-31T07:38:25.045Z</updated>
+    <updated>2018-11-01T00:40:47.727Z</updated>
     
     <summary type="html">
     
@@ -49,6 +109,10 @@
     
     </summary>
     
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
   </entry>
   

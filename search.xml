@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git版本控制工具——终极]]></title>
+    <url>%2F2018%2F11%2F01%2Fgit-4%2F</url>
+    <content type="text"><![CDATA[你以为初级，进阶，高级就完成了吗？还有我定义的终极呢，嘻嘻 初级的目标是：提交，添加修改 进阶的目标是：查看更改，查看提交记录，撤销未提交修改 高级的目标是：分支 终极的目标是：与远程版本库协作 这个需要注册github，然后创建一个远程版本仓库，复制仓库的url 远程版本库克隆到本地在android项目目录中打开git bash ,执行 git clone https://github.com/StevenKun/ShoppingCart.git URL为仓库的URL 然后可以看到目录中出现了仓库的文件夹，将仓库里的文件夹内容复制到android studio创建项目文件夹里边， 有相同的替换掉，ok 本地的修改同步到远程版本库git push origin master //origin指定的是远程版本库的git地址， master指的是同步到哪个分支上； 远程版本库上的修改同步到本地主要有fetch,和pull两种操作 fetch git fetch origin master //将远程版本库代码同步到本地,存放在origin/master分支上 git diff origin/master //查看远程仓库里修改了哪一些 git merge origin/master //将origin/master上的修改合并到主分支 full git pull origin master //相当于同时执行了fetch 和merge命令 总结git的基本用法就是这些。 真心好用哦 ，这下终于知道android studio里的代码为什么都是绿色的啦 。 下来再看git的一些相关文档也就可以看懂了，这就入门了。]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git版本控制工具——高级]]></title>
+    <url>%2F2018%2F11%2F01%2Fgit-3%2F</url>
+    <content type="text"><![CDATA[学习完了进阶，即将迎来高级，都已经迈过了一只脚，另一只脚也来吧。 初级，建立仓库，添加，提交。 进阶，查看修改，撤销修改，以及查看提交记录 高级呢？往下看 分支分支就是在现有代码的基础上开辟一个分叉口，使得代码可以在主干线和分支线同时进行开发，且相互之间不会影响。 git branch version1.0 //创建分支verison1.0 git branch //查看有哪些分支 git checkout version1.0 //切换到分支version1.0 因为分支2不会影响分支1 所以有时候要让同步时 git checkout master git merge version1.0 就可以让version1.0分支上修改并提交的内容合并到master主干上。但有时候会有代码冲突哦。 这下版本更替就没问题了，就是app更新的问题了哦]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git版本控制工具——进阶]]></title>
+    <url>%2F2018%2F11%2F01%2Fgit-2%2F</url>
+    <content type="text"><![CDATA[好了，初级学好了 就学一下进阶 ，毕竟靠初级还说不上懂git. 前边学的是创建本地仓库：git init; 仓库添加文件：git add . ; 仓库提交文件：git commit -m “ “; 现在开始进阶 查看修改内容git status //查看上次提交后的所有文件中哪些已经被修改 git diff // 查看具体修改了哪些内容，如果只想看其中一个，后加文件路径和文件名 撤销未提交的修改git checkout 文件路径/文件名 //这种撤销只能撤销未添加的修改 如果要撤销已经添加的修改，可以先撤销添加，即先： git reset HEAD 文件路径/文件名，然后再 git checkout 文件路径/文件名 查看提交记录git log 当提交记录特别多的时候，可以只查看其中一条记录 git log a51bd7e2fc81da0890428359710aa8c0bedeaa0a -1 如果要查看这个提交具体修改了什么，可以使用 git log a51bd7e2fc81da0890428359710aa8c0bedeaa0a -1 -p 好了 以上 就是进阶教程 现在修改代码什么的已经无忧喽！！！！！！！！！ 可进可退。]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[essay（5）]]></title>
     <url>%2F2018%2F10%2F31%2Fessay%2F</url>
     <content type="text"><![CDATA[江湖笑，恩怨了，人过招，笑藏刀。 金庸去了！ 那些年小说角色的演员的粉丝们 那些喜欢《江湖笑》《笑傲江湖》主题歌的哥迷们 那些深夜偷偷看武侠书，嘴角含笑的读者们 相信不少都会流泪 感慨 我相信未来还有著名的文学作品 但能风靡中国的，产量如此之高的作家只有一个 笔名“金庸”，姓名“查良镛” 被死了20多次的金庸，这次 一路走好。]]></content>
@@ -15,6 +48,12 @@
     <title><![CDATA[git版本控制工具——初级]]></title>
     <url>%2F2018%2F10%2F31%2Fgit-time%2F</url>
     <content type="text"><![CDATA[git 版本控制工具，因为自己已经开了一个小型的应用程序，下来就是迭代更新，但更新的时候如果出问题了怎么办呢？不小心删掉了代码怎么办？使用git ，给你梁静茹的勇气。 既然是初级 ，只要知道这几个就好 安装Git 百度直接搜Git,ok? 创建代码仓库 找到git bash 打开 //这是配置你的身份 git config –global user.name “用户名” git config –global user.email “ 邮箱名 “ //创建代码仓库,在项目目录之下执行 ==git init== 如果在目录下生成.git文件夹即为创建成功。 如果删除.git文件夹即为删除仓库。 提交本地代码 提交使用add和commit命令 ==git add +文件名== //添加单个文件 ==git add .== //添加目录下所有文件 ==git commit -m “First commit.”== //执行提交操作，引号内为描述 ok!!!!!!!!!!!! 初级就这些内容 ，下来更新 进阶。]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[essay（4）]]></title>
