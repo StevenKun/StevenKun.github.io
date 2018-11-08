@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/11/08/multi-platform/</loc>
+        <lastmod>2018-11-08T04:53:16.832Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/11/06/11-11%E8%B4%AD%E4%B9%B0%E6%B8%85%E5%8D%95/</loc>
+        <lastmod>2018-11-07T08:45:46.020Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/11/01/git-4/</loc>
         <lastmod>2018-11-01T03:31:12.281Z</lastmod>
         <changefreq>weekly</changefreq>

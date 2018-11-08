@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[主流开发，跨平台技术探究]]></title>
+    <url>%2F2018%2F11%2F08%2Fmulti-platform%2F</url>
+    <content type="text"><![CDATA[探究原因：当前android app无法运行于ios设备之上 探究目的：寻找解决ios用户无法运行android app的方案 前言开始之前两点讲明白： 目前没有一种技术可以实现一套代码实现在android上和ios上运行 只有一种技术针对ios系统，android系统分别进行开发。 学习和选用一种语言，对开发者的影响很大，不是想学就ok的，或者给你资源就ok的，乱点技能点，会导致开发者技能平庸，干什么都是半桶水。毕竟要做好，入门1年，精通需要5年… 技术需要考虑前景，难度,人员补充，面向的对象，物理条件，技术条件,开发成本。 正文方案一：WEB APP 该模式通常由“HTML5云网站+APP应用客户端”两部份构成,APP应用客户端只需安装应用的框架部份，而应用的数据则是每次打开APP的时候，去云端取数据呈现给手机用户. 个人总结：体检查， webapp是生存在浏览器里的应用，所以只能运行在浏览器里，宿主是浏览器，不再是操作系统。资源一般都在网络上。说的根本点就是一个触屏版的网站。 前景：差 人员补充：容易 难度：小 面向的对象：快速开发，已有window平台网页 开发物理条件：开发window，测试ios，window，android 主要技术条件：h5+css+js 开发成本：低，周期短 android的移植ios难度：无 推荐阅读：https://www.zhihu.com/search?type=content&amp;q=web+app 方案二：Hybrid app 即利用了原生APP的开发技术还应用了HTML5开发技术，是原生和HTML5技术的混合应用。混合比例不限。 个人总结：基本的UI和功能等使用原生，数据的展示等使用h5，可以使用设备底层硬件 前景：好 人员补充：中等 生态：无统一生态， 难度：中 面向的对象：需要更新维护快 物理条件：开发需要mac os +windows，测试需要ios和android 技术条件：ios中级及以上+android中级及以上+HTML+CSS+JS+java+swift 开发成本：中，周期中 android的移植ios难度:中等 目前app：支付宝，美团，微信等均采用 推荐阅读：https://blog.csdn.net/jingwen3699/article/details/68922945 方案三：React Native 出世近5年？ 跨平台解决方案： React Native产出的并不是“网页应用”， 或者说“HTML5应用”，又或者“混合应用”。 最终产品是一个真正的移动应用，从使用感受上和用Objective-C或Java编写的应用相比几乎是无法区分的。 React Native所使用的基础UI组件和原生应用完全一致。 你要做的就是把这些基础组件使用JavaScript和React的方式组合起来。 —-摘自https://reactnative.cn/官方网站 前景：目前看好 人员补充：难 难度：高 面向对象：学习一门语言，同时开发ios和android的人 物理条件：开发需要windows,mac os ,测试需要：ios,android 技术条件上：jsx+react+es6+想了解React Native构建的还需要学习nodejs。封装原生组件还需要学习 java，object-c，swift， 也就是需要学习Android和ios原生开发。设计到通讯原理还需要了解C++。 开发成本:低，周期中 android的移植ios难度:低，几乎95%的代码不需要改动， 目前app:便利蜂 推荐阅读 方案四:flutter 使用dart语言，出世近两年？ 同React Native，问题是 推荐阅读：http://www.cocoachina.com/programmer/20180802/24418.html 方案五： android和ios单独开发 方案六：Xamarin Xamarin是一个跨平台的移动应用开发框架，由微软基于Mono（一个免费的开源.NET框架），使用C＃创建本地应用。这一点上很符合公司，但最大最大的问题，怎么学习，出现问题了问谁？没有一个高度活跃的社区。国内生态巨差，但据说国外还是有一些的。 推荐： Xamarin的价值到底在哪儿？ - TalkingData的回答 - 知乎https://www.zhihu.com/question/36914471/answer/520782019 总结想要实现ios用户和android用户都能使用，除了web app都必须要开发两个应用，开发ios端的必须要有苹果笔记本，使用Xcode学习swift。开发android端的必须要有android studio或者eclipse，使用java或者kolin。不同之处，只是在于要更改多少代码的问题。 如果原生来开发app，几乎都要更改 如果混合编程来开发app，更改部分,看原生和web的比例。 如果使用React Native 等来开发，改动小。 原生是基础。]]></content>
+      <categories>
+        <category>multi_platform</category>
+      </categories>
+      <tags>
+        <tag>multi_platform</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[11.11购买清单]]></title>
+    <url>%2F2018%2F11%2F06%2F11-11%E8%B4%AD%E4%B9%B0%E6%B8%85%E5%8D%95%2F</url>
+    <content type="text"><![CDATA[双十一购买清单 自己： 茶花收纳箱58L 3*1 105 iPad2018 1 1990 Apple pencell 1 598 iPad2018保护套 1 60 面包 1 30 前5000件减10元 涑口水 1 屏幕清洁剂 1 24 优衣库 n 500 微波炉 1 299 英语课 1 949 ​]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[git版本控制工具——终极]]></title>
     <url>%2F2018%2F11%2F01%2Fgit-4%2F</url>
     <content type="text"><![CDATA[你以为初级，进阶，高级就完成了吗？还有我定义的终极呢，嘻嘻 初级的目标是：提交，添加修改 进阶的目标是：查看更改，查看提交记录，撤销未提交修改 高级的目标是：分支 终极的目标是：与远程版本库协作 这个需要注册github，然后创建一个远程版本仓库，复制仓库的url 远程版本库克隆到本地在android项目目录中打开git bash ,执行 git clone https://github.com/StevenKun/ShoppingCart.git URL为仓库的URL 然后可以看到目录中出现了仓库的文件夹，将仓库里的文件夹内容复制到android studio创建项目文件夹里边， 有相同的替换掉，ok 本地的修改同步到远程版本库git push origin master //origin指定的是远程版本库的git地址， master指的是同步到哪个分支上； 远程版本库上的修改同步到本地主要有fetch,和pull两种操作 fetch git fetch origin master //将远程版本库代码同步到本地,存放在origin/master分支上 git diff origin/master //查看远程仓库里修改了哪一些 git merge origin/master //将origin/master上的修改合并到主分支 full git pull origin master //相当于同时执行了fetch 和merge命令 总结git的基本用法就是这些。 真心好用哦 ，这下终于知道android studio里的代码为什么都是绿色的啦 。 下来再看git的一些相关文档也就可以看懂了，这就入门了。]]></content>
@@ -177,17 +193,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo的安装及使用(1)]]></title>
-    <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
-    <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>-hexo安装 -配置 -使用</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[PDA终端的APP安装流程]]></title>
     <url>%2F2018%2F09%2F11%2FPDA%E7%BB%88%E7%AB%AF%E7%9A%84APP%E5%AE%89%E8%A3%85%E6%B5%81%E7%A8%8B%2F</url>
     <content type="text"><![CDATA[PDA手持设备的app的安装。超简单系列，虽然中间可能会出点问题，BOSS让写就写呗。没什么说的。 环境介绍斑马ZEBRA手持终端 android系统 eCenter.apk安装包 安装流程 关联扫码 Scanconfige中第一个选项 WiFi设置 连接WiFi 文件管理 文件管理系统中找到com.android.setting，进入。安装eCenter.apk，打开 服务器设置 三厂设置：IP为10.116.0.35 ​ 端口号：5010 激活 找邵工激活 下载 应用商店下载SMCThemal 安装 下载下后直接安装即可使用]]></content>
@@ -196,6 +201,17 @@
       </categories>
       <tags>
         <tag>-Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo的安装及使用(1)]]></title>
+    <url>%2F2018%2F09%2F11%2Fuse-hexo-blog%2F</url>
+    <content type="text"><![CDATA[这篇文章主要是对hexo在Windows平台上的使用，安装，和配置做一个简单的说明，以及常见的问题解答。本次主题使用的是nexT，Blog编辑器使用的是MarkDown pad 2,由于第一次接触hexo，可能存在不少问题，望指正。 #hexo的安装​ 安装git,安装地址,一路next即可 安装node.js,安装地址,同上； 安装hexo，在电脑的一个新建文件夹中，右键，选择git bash here，输入以下命令 $npm install -g hexo-cli ​ $npm init //这个也可以后边加目录 但因为选择的是已经在此目录git bash here ，故默认是当前路径 $npm install 即可完成hexo的安装 ，这个新建的文件夹即为hexo的安装目录。如图 这个目录里的大部分，因为版本或者个人配置，可能有个别不同，但大体这样。 启动服务器 要能够在本地预览自己的博客，需要本地启动服务器 $npm install hexo-server --save 安装完成后执行 $hexo s 浏览器输入[ http://localhost:4000]( http://localhost:4000 &quot;自己的博客&quot;)看看自己的博客建立好了没 生成静态页面，部署在服务器的根目录下 hexo g //生成静态文件 ​ npm install hexo-deployer-git –save //安装git部署插件 ​ npm install hexo-deployer-git –save //安装git部署插件 下来需要修改安装hexo的目录下的_config.xml文件 ​ deploy: type: git //部署类型 repo: (Repository地址) branch: (分支名称) ​ 例如我的是 ​ deploy: type: git repo: https://github.com/StevenKun/StevenKun.github.io.git branch: master 登录在浏览器中输入URI（如果绑定域名输入域名，如果没绑定域名，输入repo的地址 去掉.git后缀就可以），例如我的是StevenKun.github.io,即可打开网站 。]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>-hexo安装 -配置 -使用</tag>
       </tags>
   </entry>
   <entry>
