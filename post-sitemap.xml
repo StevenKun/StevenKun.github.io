@@ -7,8 +7,56 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2019/01/08/essay/</loc>
+        <lastmod>2019-01-08T02:56:01.323Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/12/13/essay/</loc>
+        <lastmod>2019-01-08T02:55:02.910Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/11/27/game/</loc>
+        <lastmod>2018-12-28T08:35:51.460Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/12/06/xianyan/</loc>
+        <lastmod>2018-12-21T08:53:19.901Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/11/27/tip/</loc>
+        <lastmod>2018-11-27T06:59:32.431Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/11/21/essay/</loc>
+        <lastmod>2018-11-27T06:59:24.559Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/11/08/multi-platform/</loc>
-        <lastmod>2018-11-08T05:03:24.210Z</lastmod>
+        <lastmod>2018-11-08T05:05:20.260Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

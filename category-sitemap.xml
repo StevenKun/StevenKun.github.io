@@ -35,22 +35,8 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/categories/Android/</loc>
-        <lastmod>2018-10-25T00:50:34.222Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/categories/ZigBee/</loc>
         <lastmod>2018-10-31T03:27:35.351Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-        <lastmod>2018-10-31T09:17:39.572Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -64,7 +50,42 @@
 
     <url>
         <loc>http://yoursite.com/categories/multi-platform/</loc>
-        <lastmod>2018-11-08T05:03:24.210Z</lastmod>
+        <lastmod>2018-11-08T05:05:20.260Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/</loc>
+        <lastmod>2018-11-27T06:59:24.559Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/Android/</loc>
+        <lastmod>2018-11-27T06:59:32.431Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/%E6%94%BF%E6%B2%BB/</loc>
+        <lastmod>2018-12-21T08:53:19.901Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/game/</loc>
+        <lastmod>2018-12-28T08:35:51.460Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+        <lastmod>2019-01-08T02:55:02.910Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
